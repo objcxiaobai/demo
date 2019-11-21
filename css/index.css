@@ -1,0 +1,128 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: black;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 1.125rem;
+  background: black;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.slide-item {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.slide-item img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: contain; */
+}
+
+/* 首页 */
+.item-img-two {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+}
+
+.item-img-three {
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  left: 0;
+}
+
+/* 首页 */
+
+
+/* font */
+.font-1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 3;
+}
+
+.font-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 4;
+}
+
+.font-3 {
+  position: absolute;
+  z-index: 5;
+  left: 0;
+  top: 0;
+}
+
+/* text */
+.text-1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 3;
+}
+
+.text-2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 4;
+}
+
+.text-3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 5;
+}
+
+.text-4 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 6;
+}
+
+.text-5 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 7;
+}
